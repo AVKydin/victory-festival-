@@ -1,0 +1,16 @@
+header, .menu-list{
+    display: flex;
+}
+
+.logo{
+    width: 65px;
+    height: 65px;
+}
+
+.menu-list{
+
+}
+
+.menu-item{
+    list-style-type: none;
+}
