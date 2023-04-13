@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header, .menu-list{
     display: flex;
+    align-items: center;
 }
 
 .logo{
@@ -7,10 +14,24 @@ header, .menu-list{
     height: 65px;
 }
 
-.menu-list{
-
+a{
+    text-decoration: none;
 }
 
-.menu-item{
+.menu-list, .menu-item{
     list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu-button{
+    padding: 21px 28px;;
+    background-color: #7AE5FD;
+    border-radius: 87px;
+}
+
+.first-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F1FDFF;;
 }
